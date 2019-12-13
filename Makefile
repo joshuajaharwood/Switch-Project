@@ -42,6 +42,12 @@ BUILD		:=	build
 SOURCES		:=	source
 DATA		:=	data
 INCLUDES	:=	include
+
+APP_TITLE	:=	Switch Project
+APP_AUTHOR	:=	CFHeadphase
+APP_VERSION	:=	0.0.1
+ICON		:=	Icon.jpg
+
 #ROMFS	:=	romfs
 
 #---------------------------------------------------------------------------------

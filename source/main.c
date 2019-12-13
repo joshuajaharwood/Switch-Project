@@ -17,7 +17,9 @@ int main(int argc, char* argv[])
     consoleInit(NULL);
 
     // Other initialization goes here. As a demonstration, we print hello world.
-    printf("Hello World!\n");
+    printf("Josh is the coolest\n");
+
+    printf("Press (-) to exit.");
 
     // Main loop
     while (appletMainLoop())
@@ -29,7 +31,7 @@ int main(int argc, char* argv[])
         // just pressed in this frame compared to the previous one
         u64 kDown = hidKeysDown(CONTROLLER_P1_AUTO);
 
-        if (kDown & KEY_PLUS)
+        if (kDown & KEY_MINUS)
             break; // break in order to return to hbmenu
 
         // Your code goes here
