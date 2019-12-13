@@ -1,5 +1,8 @@
+# Outputs
 *.elf
 *.nacp
 *.nro
-.vscode
 /build
+
+# IDE files
+.vscode
